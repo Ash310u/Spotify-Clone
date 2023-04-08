@@ -1,0 +1,144 @@
+@font-face {
+  font-family: "Circular Spotify Tx T Black";
+  src: url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot");
+  src: url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff") format("woff"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.svg#Circular Spotify Tx T Black") format("svg");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Circular Spotify Tx T Black";
+  background-color: #111616;
+}
+
+main {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+#container-1 {
+  background-color: black;
+  height: 100vh;
+}
+
+#spo-logo {
+  margin: 0px 40px;
+  color: #fff;
+}
+
+#nav li {
+  list-style: none;
+  padding: 10px 0px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-family: "Circular Spotify Tx T Black";
+  font-weight: 300;
+  font-size: small;
+  opacity: 0.6;
+
+}
+
+.savage {
+  width: 24px;
+  object-fit: contain;
+  fill: #fff;
+}
+
+#nav li span {
+  padding-left: 10px;
+}
+
+#down {
+  padding-top: 30px;
+}
+
+#container-2 {
+  /* background-color:#111616; */
+  background: transparent;
+}
+
+#header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 16px 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+}
+
+.sameLi {
+  display: flex;
+  align-items: center;
+}
+
+#header li div {
+  padding-inline: 32px;
+}
+
+#fade {
+  opacity: .6;
+}
+
+.sabji {
+  fill: #fff;
+  object-fit: contain;
+}
+
+.yep {
+  text-decoration: none;
+  border-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  background: transparent;
+  color: #fff;
+}
+
+#sameThing-log {
+  background-color: #fff;
+  border-radius: 500px;
+  padding: 8px 32px;
+}
+
+#sameThing-sign {
+  padding: 8px 32px 8px 8px;
+  opacity: .6;
+}
+
+#sameThing-log .yep {
+  color: #000;
+}
+
+#homeCon_1 {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: space-between;
+  margin: 30px;
+  font-weight: 100;
+  align-items: center;
+}
+#focus{
+  font-size:24px;
+}
+#showAll{
+  opacity: .6;
+}
+#homeCon_2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} 
+.image{
+  width: 150px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  gap: 0px;
+}
